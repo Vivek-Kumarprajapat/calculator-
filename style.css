@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box
+}
+body{
+    background-color: aqua;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin:10px;
+    background-color: transparent;
+    border: none;
+    box-shadow:inset 6px 6px 10px 10px  rgba(100, 201, 201, 0.805);
+    padding: 10px;
+}
+
+#input{
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    font-size: 60px;
+    max-width: 350px;
+    overflow: hidden;
+}
+.contain{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal{
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: -1px -1px 10px 10px rgba(100, 201, 201, 0.805);
+    border: none;
+}
